@@ -234,224 +234,54 @@
     <div class="container has-text-centered">
       <h2 class="title is-3">Results</h2>
       
-      <!-- Comparison with Competitors -->
-      <h3 class="title is-4" style="margin-top: 50px;">Comparison with Competitors on HHOI Generation</h3>
-      <div id="competitor-carousel" class="carousel results-carousel">
-        <!-- 1. umbrella -->
-        <div class="item">
-          <div class="columns is-vcentered is-desktop">
-            <!-- Ours -->
-            <div class="column has-text-centered">
-              <div class="video-wrapper">
-                <span class="label-over-video">Ours</span>
-                <video controls autoplay loop muted style="max-width: 100%;">
-                  <source src="static/videos/umbrella_ours.mp4" type="video/mp4">
-                </video>
-              </div>
-            </div>
-            <!-- GenZI -->
-            <div class="column has-text-centered">
-              <div class="video-wrapper">
-                <span class="label-over-video">GenZI</span>
-                <video controls autoplay loop muted style="max-width: 100%;">
-                  <source src="static/videos/umbrella_GenZI.mp4" type="video/mp4">
-                </video>
-              </div>
-            </div>
-            <!-- Depth Opt. -->
-            <div class="column has-text-centered">
-              <div class="video-wrapper">
-                <span class="label-over-video">Depth Opt.</span>
-                <video controls autoplay loop muted style="max-width: 100%;">
-                  <source src="static/videos/umbrella_depth.mp4" type="video/mp4">
-                </video>
-              </div>
-            </div>
-          </div>
-          <h2 class="subtitle has-text-centered">
-            <i>Two people are sharing an umbrella.</i>
-          </h2>
-        </div>
-        <!-- 2. wheelchair -->
-        <div class="item">
-          <div class="columns is-vcentered is-desktop">
-            <!-- Ours -->
-            <div class="column has-text-centered">
-              <div class="video-wrapper">
-                <span class="label-over-video">Ours</span>
-                <video controls autoplay loop muted style="max-width: 100%;">
-                  <source src="static/videos/wheelchair_ours.mp4" type="video/mp4">
-                </video>
-              </div>
-            </div>
-            <!-- GenZI -->
-            <div class="column has-text-centered">
-              <div class="video-wrapper">
-                <span class="label-over-video">GenZI</span>
-                <video controls autoplay loop muted style="max-width: 100%;">
-                  <source src="static/videos/wheelchair_GenZI.mp4" type="video/mp4">
-                </video>
-              </div>
-            </div>
-            <!-- Depth Opt. -->
-            <div class="column has-text-centered">
-              <div class="video-wrapper">
-                <span class="label-over-video">Depth Opt.</span>
-                <video controls autoplay loop muted style="max-width: 100%;">
-                  <source src="static/videos/wheelchair_depth.mp4" type="video/mp4">
-                </video>
-              </div>
-            </div>
-          </div>
-          <h2 class="subtitle has-text-centered">
-            <i>Two people are helping another person in a wheelchair.</i>
-          </h2>
-        </div>
-        <!-- 3. campfire -->
-        <div class="item">
-          <div class="columns is-vcentered is-desktop">
-            <!-- Ours -->
-            <div class="column has-text-centered">
-              <div class="video-wrapper">
-                <span class="label-over-video">Ours</span>
-                <video controls autoplay loop muted style="max-width: 100%;">
-                  <source src="static/videos/campfire_ours.mp4" type="video/mp4">
-                </video>
-              </div>
-            </div>
-            <!-- GenZI -->
-            <div class="column has-text-centered">
-              <div class="video-wrapper">
-                <span class="label-over-video">GenZI</span>
-                <video controls autoplay loop muted style="max-width: 100%;">
-                  <source src="static/videos/campfire_GenZI.mp4" type="video/mp4">
-                </video>
-              </div>
-            </div>
-            <!-- Depth Opt. -->
-            <div class="column has-text-centered">
-              <div class="video-wrapper">
-                <span class="label-over-video">Depth Opt.</span>
-                <video controls autoplay loop muted style="max-width: 100%;">
-                  <source src="static/videos/campfire_depth.mp4" type="video/mp4">
-                </video>
-              </div>
-            </div>
-          </div>
-          <h2 class="subtitle has-text-centered">
-            <i>Three people are sitting next to a campfire.</i>
-          </h2>
+      <!-- Object 6D Pose Iterative Refinement -->
+      <h3 class="title is-4" style="margin-top: 50px;">Object 6D Pose Iterative Refinement</h3>
+      <div class="columns is-centered">
+        <div class="column is-full">
+          <video autoplay loop muted playsinline preload="auto" style="width: 100%; height: auto; display: block;">
+            <source src="static/videos/iterative_refinement_example.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
         </div>
       </div>
 
-      <!-- HHOI Generation with Multiple Humans -->
-      <h3 class="title is-4" style="margin-top: 50px;">HHOI Generation with Multiple Humans</h3>
+      <!-- Robot Manipulation in Simulation with Our Goal 6D Pose Predictions -->
+      <h3 class="title is-4" style="margin-top: 50px;">Robot Manipulation in Simulation with Our Goal 6D Pose Predictions</h3>
       <div id="multi-carousel" class="carousel results-carousel">
-        <!-- 1. laptop -->
         <div class="item">
-          <div class="columns is-vcentered is-desktop">
-            <!-- N=2 -->
-            <div class="column has-text-centered">
-              <div class="video-wrapper">
-                <span class="label-over-video">N = 2</span>
-                <video controls autoplay loop muted style="max-width: 100%;">
-                  <source src="static/videos/laptop_2.mp4" type="video/mp4">
-                </video>
-              </div>
-            </div>
-            <!-- N=3 -->
-            <div class="column has-text-centered">
-              <div class="video-wrapper">
-                <span class="label-over-video">N = 3</span>
-                <video controls autoplay loop muted style="max-width: 100%;">
-                  <source src="static/videos/laptop_3.mp4" type="video/mp4">
-                </video>
-              </div>
-            </div>
-            <!-- N=4 -->
-            <div class="column has-text-centered">
-              <div class="video-wrapper">
-                <span class="label-over-video">N = 4</span>
-                <video controls autoplay loop muted style="max-width: 100%;">
-                  <source src="static/videos/laptop_4.mp4" type="video/mp4">
-                </video>
-              </div>
-            </div>
-            <!-- N=5 -->
-            <div class="column has-text-centered">
-              <div class="video-wrapper">
-                <span class="label-over-video">N = 5</span>
-                <video controls autoplay loop muted style="max-width: 100%;">
-                  <source src="static/videos/laptop_5.mp4" type="video/mp4">
-                </video>
-              </div>
-            </div>
-          </div>
-          <h2 class="subtitle has-text-centered">
-            <i>People are looking at a laptop while seated.</i>
-          </h2>
+          <video controls muted playsinline preload="auto" style="width: 100%; height: auto; display: block;">
+            <source src="static/videos/robot1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
         </div>
-        <!-- 2. whiteboard -->
         <div class="item">
-          <div class="columns is-vcentered is-desktop">
-            <!-- N=2 -->
-            <div class="column has-text-centered">
-              <div class="video-wrapper">
-                <span class="label-over-video">N = 2</span>
-                <video controls autoplay loop muted style="max-width: 100%;">
-                  <source src="static/videos/wb_2.mp4" type="video/mp4">
-                </video>
-              </div>
-            </div>
-            <!-- N=3 -->
-            <div class="column has-text-centered">
-              <div class="video-wrapper">
-                <span class="label-over-video">N = 3</span>
-                <video controls autoplay loop muted style="max-width: 100%;">
-                  <source src="static/videos/wb_3.mp4" type="video/mp4">
-                </video>
-              </div>
-            </div>
-            <!-- N=4 -->
-            <div class="column has-text-centered">
-              <div class="video-wrapper">
-                <span class="label-over-video">N = 4</span>
-                <video controls autoplay loop muted style="max-width: 100%;">
-                  <source src="static/videos/wb_4.mp4" type="video/mp4">
-                </video>
-              </div>
-            </div>
-            <!-- N=5 -->
-            <div class="column has-text-centered">
-              <div class="video-wrapper">
-                <span class="label-over-video">N = 5</span>
-                <video controls autoplay loop muted style="max-width: 100%;">
-                  <source src="static/videos/wb_5.mp4" type="video/mp4">
-                </video>
-              </div>
-            </div>
-          </div>
-          <h2 class="subtitle has-text-centered">
-            <i>People are having a discussion in front of a whiteboard.</i>
-          </h2>
+          <video controls muted playsinline preload="auto" style="width: 100%; height: auto; display: block;">
+            <source src="static/videos/robot2.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="item">
+          <video controls muted playsinline preload="auto" style="width: 100%; height: auto; display: block;">
+            <source src="static/videos/robot3.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
         </div>
       </div>
       
       <!-- Human Motion In-Betweening Section -->
       <h3 class="title is-4" style="margin-top: 100px;">Application: Human Motion In-Betweening</h3>
       <div id="scene-editing-carousel" class="carousel results-carousel">
-        <!-- Loop: 각 동영상 항목 -->
         <div class="item">
-          <video controls autoplay loop muted style="height: 800px; width: auto; object-fit: contain;">
-            <source src="static/videos/bench.mp4" type="video/mp4">
+          <video controls muted playsinline preload="auto" style="width: 100%; height: auto; display: block;">
+            <source src="static/videos/robot4_x2.mp4" type="video/mp4">
+            Your browser does not support the video tag.
           </video>
-          <h2 class="subtitle has-text-centered"><i>Three people walk to the bench and sit together.</i></h2>
         </div>
         <div class="item">
-          <video controls autoplay loop muted style="height: 800px; width: auto; object-fit: contain;">
-            <source src="static/videos/vendingmachine.mp4" type="video/mp4">
+          <video controls muted playsinline preload="auto" style="width: 100%; height: auto; display: block;">
+            <source src="static/videos/robot5_x2.mp4" type="video/mp4">
+            Your browser does not support the video tag.
           </video>
-          <h2 class="subtitle has-text-centered"><i>Two people walk to a vending machine and use it.</i></h2>
         </div>
       </div>
       
